@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 .ih-item a {
-  color: #333;
+  /*color: #333;*/
   cursor: pointer;
 }
 .ih-item a:hover {
@@ -38,6 +38,10 @@
   text-align: center;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+.ih-item.square span .info > p {
+	cursor: default;
 }
 
 .ih-item.square.effect10 {
